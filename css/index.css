@@ -171,7 +171,13 @@ img {
 .links {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding-top: 15px;
+  width: 40%;
+  margin-right: 10%;
+}
+.links a {
+  font-size: 1.6rem;
+  text-decoration: none;
 }
 .footer {
   width: 100%;
@@ -189,7 +195,25 @@ img {
   border-bottom: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.main-header .company {
+  width: 30%;
+  margin-left: 2.5%;
+}
+.main-header .company h1 {
+  margin-left: 10%;
+  width: 100%;
+}
+.intro {
+  border-bottom: 2px dashed #C0C0C0;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
+.intro .about {
+  margin-top: 2%;
 }
 .home .content-section {
   margin: 30px 0;
@@ -236,4 +260,15 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: yellow;
+  background-color: #17A2B8;
+  color: white;
+  font-size: 2.5rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
 }
