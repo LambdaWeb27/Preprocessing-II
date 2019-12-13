@@ -1,1 +1,15 @@
 // Mixins in here
+.buttonStyle(@bntbg, @bntcolor, @bntFont){
+    background-color:@bntbg;
+    color:@bntcolor;
+    font-size:@bntFont;
+}
+.displayMobile(){
+    flex-direction: column;  
+    margin-left:@spacingSides;
+    margin-right:@spacingSides;
+}
+.displayHeader(){
+    flex-direction: column;
+    align-items: center;
+}
